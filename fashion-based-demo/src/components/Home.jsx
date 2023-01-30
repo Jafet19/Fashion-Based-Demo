@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import Footer from './Footer';
 import Hero from './Hero';
 import Product from './Product';
 import { ProductContext } from './ProductContext';
@@ -23,6 +24,7 @@ export default function Home(){
             </div>
           </div>
         </section>
+        <Footer />
       </>
     )
 }

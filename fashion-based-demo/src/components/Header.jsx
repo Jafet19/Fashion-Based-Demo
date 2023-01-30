@@ -20,7 +20,7 @@ const Header = () => {
             <div className="container mx-auto flex items-center justify-between h-full">
             <Link to={'/'}>
                 <div>
-                    <img className='w-[40px]' src={Logo} />
+                    <img className='w-[40px]' src={Logo} alt='' />
                 </div>
             </Link>
             <div className="cursor-pointer flex relative" onClick={() => setIsOpen(!isOpen)}>
